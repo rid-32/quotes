@@ -1,0 +1,78 @@
+.dot {
+  opacity: 1 !important;
+  background-color: #000 !important;
+}
+
+.dot.selected {
+  background-color: #fff !important;
+}
+
+.head-carousel-content {
+  display: none !important;
+};
+
+@media screen and (min-width: 600px) {
+  .head-carousel-content {
+    display: block !important;
+    opacity: 1 !important;
+    background-color: transparent !important;
+    bottom: 25% !important;
+    text-align: right !important;
+    left: 0px !important;
+    margin-left: 0px !important;
+    width: 100% !important;
+
+    .carousel-header {
+      font-weight: 200 !important;
+      font-size: 5.75rem !important;
+      text-transform: uppercase !important;
+      letter-spacing: 10px !important;
+      margin-right: -10px !important;
+    };
+
+    .carousel-main {
+      font-size: 1.25rem !important;
+      font-weight: 700 !important;
+      letter-spacing: 5.82px !important;
+      margin-right: -5.82px !important;
+    };
+  };
+};
+
+@media screen and (min-width: 768px) {
+  .head-carousel-content {
+
+    .carousel-header {
+      font-size: 7.75rem !important;
+    };
+
+    .carousel-main {
+      font-size: 1.85rem !important;
+    }
+  };
+}
+
+@media screen and (min-width: 1200px) {
+  .head-carousel-content {
+    bottom: 35% !important;
+
+    .carousel-header {
+      font-size: 13.75rem !important;
+      letter-spacing: 20px !important;
+      margin-right: -20px !important;
+    };
+
+    .carousel-main {
+      font-size: 4rem !important;
+    };
+  };
+
+  .control-dots {
+    bottom: 100px !important;
+  };
+
+  .dot {
+    height: 1rem !important;
+    width: 1rem !important;
+  }
+};

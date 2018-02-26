@@ -1,0 +1,30 @@
+/* Variables */
+
+/* Mixins */
+
+
+/* Classes */
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.ui.grid {
+  margin: 0 !important;
+  align-items: center !important;
+
+  .column:not(.row) {
+    padding: 0px !important;
+  }
+}
+
+.bordered {
+  border: 1px solid black;
+}
+
+.someStuff {
+  transition-property: height !important;
+  transition-duration: 1s !important;
+}
+
