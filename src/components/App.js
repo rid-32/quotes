@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import Navbar from './Navbar';
 import HeaderCarusel from './HeaderCarusel';
 import FreeTemplate from './FreeTemplate';
+import Reasons from './Reasons';
 
 class App extends Component {
 
@@ -13,6 +14,7 @@ class App extends Component {
         <Navbar />
         <HeaderCarusel />
         <FreeTemplate />
+        <Reasons />
       </div>
     );
   }
